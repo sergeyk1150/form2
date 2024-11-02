@@ -1,0 +1,36 @@
+.registration__form {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 40px 100px;
+}
+
+.form__title {
+	align-self: center;
+	margin-bottom: 20px;
+}
+.input {
+	margin-bottom: 20px;
+	padding: 5px;
+	outline: none;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+label {
+	align-self: flex-start;
+	font-size: 10px;
+}
+
+.btn {
+	padding: 5px;
+	border-radius: 5px;
+	background-color: rgb(142, 39, 39);
+	color: rgb(244, 239, 239);
+}
+.btn[disabled] {
+	color: black;
+}
+.error {
+	margin-top: -20px;
+	color: rgb(142, 39, 39);
+}
